@@ -1,0 +1,101 @@
+body{
+	background-image: url(../images/7.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+  }
+#left {
+	float: left;
+	height: 500px;
+	width: 290px;
+	margin-top: 100px;
+	margin-left: 140px;
+	background-color: rgba(255, 255, 255, 0.1);
+	text-shadow: 0px 0px 12px #ffffff;
+	border-radius: 30px;
+}
+#picture {
+	height: 320px;
+	width: 770px;
+	background-color: rgba(147,144,144,0.4);
+	box-shadow: 0px 0px 12px rgba(128,122,122,0.75);
+	margin-left: 10px;
+}
+.main {
+	float: left;
+	height: 1500px;
+	width: 800px;
+	margin-top: 100px;
+	margin-left: 100px;
+	background-color: rgba(255, 255, 255, 0.1);
+	/*text-shadow: 0px 0px 12px #ffffff;*/
+	border-radius: 30px;
+	
+}
+.main .contentn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main .contentn h2
+{
+    
+    text-align: center;
+    font-weight: 800;
+    line-height: 2.2em;
+	font-size: xx-large;
+}
+.main .contentnn
+{
+	color: #2d2a2a;
+    font-size: 1.0em;
+	line-height: 2.2em;
+    text-indent:2em;
+}
+.p
+{
+	text-indent:2em;
+}
+
+.main .contentnn .img
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+	
+.logo1 {
+	margin: 0px;
+	width: 280px;
+	height: 240px;
+	float: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    width: 200px;
+    height: 192px;
+    float: left;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.9);
+    transition: all 1s;
+    float: left;
+    /*box-shadow: 0px 0px 10px #ffffff;*/
+}
+
+.logo2:hover {
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 1);
+
+    transition: all 1s;
+    /*box-shadow: 0px 0px 10px #ffffff;*/
+}
+
+

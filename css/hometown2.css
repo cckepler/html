@@ -1,0 +1,43 @@
+body{
+	background-image: url(../images/7.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+  }
+#left {
+	float: left;
+	height: 400px;
+	width: 290px;
+	margin-top: 100px;
+	margin-left: 140px;
+	background-color: rgba(39, 46, 46, 0.152);
+	text-shadow: 0px 0px 12px #ffffff;
+	border-radius: 30px;
+	box-shadow: 0px 0px 12px #ffffff;
+	transition: all 0.5s;
+}
+#left :hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 25px rgba(255,255,255,0.2);
+    transition: all 0.5s;
+}
+#main {
+	float: left;
+	height: 1100px;
+	width: 800px;
+	margin-top: 100px;
+	margin-left: 100px;
+	background-color: rgba(39, 46, 46, 0.152);
+	 text-shadow: 0px 0px 12px #ffffff;
+    box-shadow: 0px 0px 12px #ffffff;
+	border-radius: 30px;
+	transition: all 0.5s;
+}
+#main :hover{
+	 background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 25px rgba(255,255,255,0.2);
+    transition: all 0.5s;
+	}
+#main table tr td p {
+	color: #FFF;
+}

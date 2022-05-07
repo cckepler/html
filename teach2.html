@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>教程|我的空间</title>
+    <!-- ctrl+h即可调出查询与替换窗口 -->
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/teach2.css" />
+    <link href="http://libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="5.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="me.html">首页</a>
+                </li>
+                <li>
+                    <a href="javascript:;">一点学习</a>
+                    <ol>
+                        <li><a href="teach.html">网页制作</a></li>
+
+                    </ol>
+                </li>
+                <li>
+                    <a href="javascript:;">一点课外</a>
+                    <ol>
+                        <li><a href="food.html">美食</a></li>
+                        <li><a href="yue.html">石楠&核酸</a></li>
+                        <li><a href="fun.html">娱乐</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="javascript:;">关于我</a>
+                    <ol>
+                        <li><a href="hometown.html">家乡介绍</a></li>
+                        <li><a href="uni.html">大学介绍</a></li>
+                        <li><a href="2.html">音乐分享</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="think.html">感悟心得</a>
+                    <ol>
+						<li><a href="think1.html">网站概述</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="index.html">回到封面</a>
+                </li>
+                <!-- 这个元素来定义滑动的线条 -->
+                <li class="underline"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="left">
+        <div class="logo1">
+            <p><img src="images/logo2.jpg" alt="" width="240" class="logo2"></p>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <table width="278" height="58" border="0">
+            <tr>
+                <td align="center" style="font-size: x-large; color: rgb(0, 0, 0);">肖杰新</td>
+            </tr>
+        </table>
+        <table width="295" height="158" border="0">
+            <tr>
+                <td width="163">&nbsp;🏠<span style="color: rgb(0, 0, 0)"><a href = "https://baike.so.com/doc/2864680-3023065.html" target="_blank">福建省厦门市</a></td>
+                <td width="116"><span style="color: rgb(0, 0, 0)"><a href="#"><i class="fa fa-github"
+                                aria-hidden="true"></i></a><a href="https://github.com/cckepler" target="_blank">Githhub</a></td>
+            </tr>
+            <tr>	
+                <td>&nbsp;🏫<span style="color: rgb(0, 0, 0)"><a href = "https://www.scuec.edu.cn/" target="_blank">中南民族大学</a></td>
+                <td>🎧<span style="color: rgb(0, 0, 0)"><a href = "https://music.163.com/#/user/home?id=578430713" target="_blank">网易云</a></td>
+            </tr>
+
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+
+    </div>
+    <div class="main">
+		<div class="contentn">
+			<h2>百叶窗CSS效果制作<br></h2>
+		</div>
+		<div class="contentnn">
+			<h2>1.html部分</h2>
+			<p>百叶窗效果制作其实就是把这些图片放在一个列表里，相互叠加，鼠标移动的时候改变宽度
+                自然就展示了完整的图片，因此html部分使用ul标签构建一个百叶窗框架，再运用div插入
+                图片等方式优化
+            </p>
+			<div class="img">
+				<img src="images/window1.png" width="750px" height="400px">
+			</div>
+			<p>以上述的操作方法后，还需要加入css部分。</p>
+			<h2>2.CSS部分</h2>
+			<p>css部分就需要给大框架以及大框架中的小框架的宽度计算</p>
+			<div class="img">
+				<img src="images/window2.png" width="750px" height="520px">
+			</div>
+			<p>这样操作下来基本的框架就已经出现了，大家可以动手试一试，需要提的是
+                上图中的overflow：hidden能够帮我们把图片超出容器范围的部分所隐藏
+                这样我们最后只需要加入该有的动画效果了。
+            </p>
+			<div class="img">
+				<img src="images/window3.png" width="750px" height="120px">
+			</div>
+            <p>
+                上图这两行代码是极其关键的----首先要注意，两行代码的顺序不可以更换
+                首先鼠标移入 ul 的大容器内时，我们首先要让 li 的宽度变小，紧接着触发下一行的hover ，移入到每一个 li 的时候，让 li 的宽度变大
+            </p>
+			<p>希望对大家有所帮助😊</p>
+		</div>
+	</div>
+    </div>
+</body>
+
+</html>
